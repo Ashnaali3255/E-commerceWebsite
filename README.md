@@ -13,3 +13,8 @@ and users.
 - Database	(PostgreSQL)
 - CRUD operations (adding, updating, deleting products in the
 database).
+
+**Live Demo:** https://e-commercewebsite-cr6y.onrender.com 
+
+**Neon/PostgreSQL Database:** <img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/be967160-4655-4e77-85e7-2687d4803f15" />
+
