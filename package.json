@@ -1,0 +1,35 @@
+{
+  "name": "e-commercewebsite",
+  "version": "1.0.0",
+  "description": "**Goal:**",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashnaali3255/E-commerceWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashnaali3255/E-commerceWebsite/issues"
+  },
+  "homepage": "https://github.com/Ashnaali3255/E-commerceWebsite#readme",
+  "dependencies": {
+    "@arcjet/node": "^1.0.0-beta.10",
+    "@neondatabase/serverless": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
